@@ -122,6 +122,10 @@ header button {
 .reasontwo {
     display: flex;
     text-align: left;
+    padding: 48px;
+    background: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    border-radius: 16px;
+    margin: 32px 0px;
 }
 
 .twowrite {
