@@ -10,8 +10,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 28px 10rem ;
-    padding: 0px ;
+    margin: 28px 10rem;
+    padding: 0px;
 }
 
 header h1 {
@@ -26,7 +26,7 @@ header button {
     font-weight: 400;
     text-align: center;
     padding: 17px 24px;
-    border-radius: 8px ;
+    border-radius: 8px;
     background-color: transparent;
     cursor: pointer;
 }
@@ -36,25 +36,85 @@ header button {
     background-image: url('assets/Hero-bg.png');
     background-size: cover;
     background-position: center;
-    height: 652px ;
+    height: 652px;
     width: 100%;
 }
 
-.cover h2, p, img {
-    margin: 30px 221px ;
+.cover h2,
+.cover p,
+.cover img {
+    margin: 30px 221px;
 }
 
 .cover h2 {
-    font-size: 48px ;
+    font-size: 48px;
     font-weight: 800;
 }
 
 .cover button {
-    padding: 21px 24px ;
+    padding: 21px 24px;
     background-color: black;
-    border-radius: 8px ;
+    border-radius: 8px;
     color: white;
     cursor: pointer;
     font-size: 20px;
     font-weight: 600;
+}
+
+.whyweb {
+    margin: 74px 148px;
+    padding: 80px 97px;
+    background-color: rgba(13, 19, 33, 0.02);
+    text-align: center;
+    color: #0D1321;
+}
+
+.whyweb h2 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+
+.reasonone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 48px;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    border-radius: 16px ;
+}
+
+.onewrite {
+    width: 482px;
+    height: 220px ;
+}
+
+.cards p {
+    margin: 12px 0px ;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+}
+
+.cards h3 {
+    margin: 15px 0px ;
+    font-family: "B612 Mono", monospace;
+    width: 390px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.cards a {
+    display: inline-block;
+    margin: 12px 0px ;
+    padding: 12px 20px;
+    font-size: 20px ;
+    font-weight: 600;
+    text-decoration: none;
+    color: #0D1321;
+    border: 1px solid rgb(13, 19, 33);
+    background-color: transparent;
 }
