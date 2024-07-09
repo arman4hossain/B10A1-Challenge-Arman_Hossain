@@ -74,6 +74,10 @@ header button {
     font-weight: 800;
 }
 
+.webhead {
+    margin-bottom: 48px ;
+}
+
 
 .reasonone {
     display: flex;
@@ -85,12 +89,8 @@ header button {
     border-radius: 16px ;
 }
 
-.onewrite {
-    width: 482px;
-    height: 220px ;
-}
-
 .cards p {
+    width: 468px ;
     margin: 12px 0px ;
     font-size: 16px;
     font-weight: 400;
@@ -99,8 +99,8 @@ header button {
 
 .cards h3 {
     margin: 15px 0px ;
+    width: 390px ;
     font-family: "B612 Mono", monospace;
-    width: 390px;
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
     font-weight: 700;
@@ -117,4 +117,22 @@ header button {
     color: #0D1321;
     border: 1px solid rgb(13, 19, 33);
     background-color: transparent;
+}
+
+.reasontwo {
+    margin: 32px 0px ;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 48px;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    border-radius: 16px ;
+}
+
+.twowrite {
+    margin-left: 32px;
+}
+
+.twowrite h3{
+    width: 477px;
 }
