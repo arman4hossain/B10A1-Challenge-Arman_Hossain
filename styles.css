@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 
@@ -58,8 +59,13 @@ header button {
     border-radius: 8px;
     color: white;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 20px; 
     font-weight: 600;
+}
+
+.cover a{
+    color: white;
+    text-decoration: none;
 }
 
 
